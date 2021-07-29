@@ -3,7 +3,7 @@
 
 function connection()
 {
-    $connection =new mysqli("localhost","Jahidul","1234","wtk");
+    $connection =new mysqli("localhost","Shoumik","10203040","WBT");
     if($connection->connect_errno)
     {
         die("Database connection failed.".$connection->connect_error);
